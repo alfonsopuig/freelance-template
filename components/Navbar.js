@@ -78,7 +78,7 @@ function Navbar() {
             </div>
           </nav>
           <button
-            className="relative top-0 right-0 z-20 flex h-10 w-10 text-black focus:outline-none lg:hidden"
+            className="relative top-0 right-0 z-20 flex h-10 w-10 text-justify text-black focus:outline-none lg:hidden"
             onClick={() => setOpen(!open)}
             aria-label="Menu"
           >
