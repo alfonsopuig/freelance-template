@@ -76,7 +76,7 @@ function Navbar() {
           </nav>
           <button
             className="relative top-0 right-0 z-20 flex h-10 w-10 text-black focus:outline-none lg:hidden"
-            onClick={() => setOpen(!open)}
+            onClick={() => setOpen(!open)} aria-label="Menu"
           >
             <div className="absolute left-1/2 top-1/2 w-5 -translate-x-1/2 -translate-y-1/2 transform">
               <span
