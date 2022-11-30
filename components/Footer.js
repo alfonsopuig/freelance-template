@@ -126,7 +126,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="flex place-content-between items-center border-t border-t-gray-600 pt-8 text-white">
+        <div className="md:flex text-center place-content-between items-center border-t border-t-gray-600 pt-8 text-white">
           <div className="basis-4/5 md:text-left">
             <p>
               © {new Date().getFullYear()} {footerInfo.credits}
