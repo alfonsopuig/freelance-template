@@ -24,7 +24,7 @@ const NavLinks = [
 function MobileNav({ open, setOpen }) {
   return (
     <nav
-      className={`fixed top-0 left-0 z-10 flex h-screen w-full transform bg-white bg-opacity-100 p-10 pt-24 text-black transition-all delay-100 duration-300 ${
+      className={`fixed top-0 left-0 z-10 flex h-screen w-full transform bg-white bg-opacity-100 p-10 text-black transition-all delay-100 duration-300 ${
         open ? "translate-x-0 opacity-100" : "-translate-x-full opacity-0"
       } items-center`}
     >
