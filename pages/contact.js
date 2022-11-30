@@ -13,7 +13,7 @@ export default function Contact() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="m-auto w-3/5 py-36">
+      <div className="m-auto w-4/5 py-36 md:w-3/5">
         <PageTitle title="Contact" />
         <form method="POST" action="https://herotofu.com/start">
           <label class="mb-6 block">
