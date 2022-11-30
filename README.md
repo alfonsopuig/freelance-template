@@ -12,7 +12,6 @@ Freelancer is a startup template for entrepreneurs or freelancers. Built with [N
 
 - [Deploy on Vercel](#deploy-on-vercel)
 - [Getting Started](#getting-started)
-- [Modifications](#modifications)
 
 ## Deploy on Vercel
 
