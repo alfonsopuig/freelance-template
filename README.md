@@ -2,7 +2,7 @@
 
 Freelancer is a startup template for entrepreneurs or freelancers. Built with [Nextjs](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
-![nextree](https://user-images.githubusercontent.com/13857079/202289792-5a0fdcde-7e97-41a9-b0be-1cc720c3e9c8.jpg)
+![FireShot Capture 012 - Freelancer - freelance-template vercel app](https://user-images.githubusercontent.com/13857079/204798909-9ca9ebd6-c9da-4321-9ba2-85edcd67bacc.png)
 
 ## Live Demo
 
