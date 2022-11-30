@@ -14,7 +14,7 @@ export default function Services() {
         <meta name="description" content="Freelancer is a landing page template built with NextJS & Tailwind CSS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="m-auto w-3/5 py-36">
+      <div className="m-auto w-4/5 md:w-3/5 py-36">
         <PageTitle title="Services" />
         <div className="my-14 place-content-around md:flex">
           <div>
