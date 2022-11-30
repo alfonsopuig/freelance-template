@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
         <div className="mt-7 basis-3/4">
           <p className="text-xl md:text-2xl">{hero.pretitle}</p>
-          <h1 className="mb-7 font-bold">{hero.title}</h1>
+          <h1 className="mb-7 font-semibold">{hero.title}</h1>
           <p>{hero.description}</p>
           <Button title={hero.buttonText} link={hero.buttonLink} />
         </div>
