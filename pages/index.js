@@ -1,17 +1,26 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import Hero from '../components/HomePage/Hero';
-import Logos from '../components/HomePage/Logos';
-import Features, { featuresOne, featuresTwo } from '../components/HomePage/Features';
-import Project, { projectOne, projectTwo } from '../components/HomePage/Project';
-import Testimonials from '../components/HomePage/Testimonials';
+import Hero from "../components/HomePage/Hero";
+import Logos from "../components/HomePage/Logos";
+import Features, {
+  featuresOne,
+  featuresTwo,
+} from "../components/HomePage/Features";
+import Project, {
+  projectOne,
+  projectTwo,
+} from "../components/HomePage/Project";
+import Testimonials from "../components/HomePage/Testimonials";
 
 export default function Home() {
   return (
     <>
       <Head>
         <title>Freelancer</title>
-        <meta name="description" content="Freelancer is a landing page template built with NextJS & Tailwind CSS" />
+        <meta
+          name="description"
+          content="Freelancer is a landing page template built with NextJS & Tailwind CSS"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="preload"

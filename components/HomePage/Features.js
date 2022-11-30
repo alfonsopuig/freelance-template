@@ -1,59 +1,71 @@
 const featuresOne = {
-  title: 'Features #1',
+  title: "Features #1",
   options: [
     {
-      title: 'Online Shop',
-      description: 'Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum',
+      title: "Online Shop",
+      description:
+        "Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum",
     },
     {
-      title: 'Web Development',
-      description: 'Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum',
+      title: "Web Development",
+      description:
+        "Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum",
     },
     {
-      title: 'Jamstack Technologies',
-      description: 'Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum',
+      title: "Jamstack Technologies",
+      description:
+        "Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum",
     },
     {
-      title: 'Modern Development',
-      description: 'Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum',
+      title: "Modern Development",
+      description:
+        "Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum",
     },
     {
-      title: 'Expert Marketing',
-      description: 'Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum',
+      title: "Expert Marketing",
+      description:
+        "Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum",
     },
     {
-      title: 'Data Analysis',
-      description: 'Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum',
+      title: "Data Analysis",
+      description:
+        "Fusce scelerisque turpis vel dolor maximus facilisis. Donec efficitur eget leo id bibendum",
     },
   ],
 };
 
 const featuresTwo = {
-  title: 'Features #2',
+  title: "Features #2",
   options: [
     {
-      title: 'Mobile Responsive Template',
-      description: 'Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna',
+      title: "Mobile Responsive Template",
+      description:
+        "Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna",
     },
     {
-      title: 'Build with NextJS & Tailwind',
-      description: 'Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna',
+      title: "Build with NextJS & Tailwind",
+      description:
+        "Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna",
     },
     {
-      title: 'SEO Optimized',
-      description: 'Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna',
+      title: "SEO Optimized",
+      description:
+        "Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna",
     },
     {
-      title: 'Clean Code',
-      description: 'Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna',
+      title: "Clean Code",
+      description:
+        "Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna",
     },
     {
-      title: 'Developer Support',
-      description: 'Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna',
+      title: "Developer Support",
+      description:
+        "Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna",
     },
     {
-      title: 'Customizable',
-      description: 'Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna',
+      title: "Customizable",
+      description:
+        "Morbi vitae dignissim metus, eget placerat magna. Morbi ut molestie nulla. Ut eu leo dapibus magna",
     },
   ],
 };

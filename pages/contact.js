@@ -1,13 +1,16 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import PageTitle from '../components/PageTitle';
+import PageTitle from "../components/PageTitle";
 
 export default function Contact() {
   return (
     <>
       <Head>
         <title>Contact | Freelancer</title>
-        <meta name="description" content="Freelancer is a landing page template built with NextJS & Tailwind CSS" />
+        <meta
+          name="description"
+          content="Freelancer is a landing page template built with NextJS & Tailwind CSS"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="m-auto w-3/5 py-36">

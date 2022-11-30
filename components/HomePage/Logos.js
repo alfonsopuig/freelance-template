@@ -1,35 +1,35 @@
-import Image from 'next/image';
+import Image from "next/image";
 
-import logo1 from '../../public/images/logo-1.png';
+import logo1 from "../../public/images/logo-1.png";
 
 const data = {
-  title: 'Tools and platforms',
+  title: "Tools and platforms",
   logos: [
     {
       image: logo1,
-      alt: 'Logo 1',
+      alt: "Logo 1",
     },
     {
       image: logo1,
-      alt: 'Logo 2',
+      alt: "Logo 2",
     },
     {
       image: logo1,
-      alt: 'Logo 3',
+      alt: "Logo 3",
     },
     {
       image: logo1,
-      alt: 'Logo 4',
+      alt: "Logo 4",
     },
   ],
   experience: [
     {
-      number: '+15',
-      description: 'years of experience',
+      number: "+15",
+      description: "years of experience",
     },
     {
-      number: '+25',
-      description: 'completed projects',
+      number: "+25",
+      description: "completed projects",
     },
   ],
 };

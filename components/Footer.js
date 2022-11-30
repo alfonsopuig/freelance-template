@@ -1,87 +1,87 @@
-import Link from 'next/link';
-import Button from './Button';
+import Link from "next/link";
+import Button from "./Button";
 
 const footerInfo = {
-  title: 'Get Started',
+  title: "Get Started",
   description:
-    'Vestibulum porttitor sem et magna scelerisque, at mattis lorem varius. Maecenas euismod dui quis faucibus laoreet. Pellentesque habitant.',
-  buttonLink: '#',
+    "Vestibulum porttitor sem et magna scelerisque, at mattis lorem varius. Maecenas euismod dui quis faucibus laoreet. Pellentesque habitant.",
+  buttonLink: "#",
   buttonText: "Let's talk",
-  leftMenu: 'Products',
-  middleMenu: 'Resources',
-  rightMenu: 'Company',
-  credits: 'Freelancer',
+  leftMenu: "Products",
+  middleMenu: "Resources",
+  rightMenu: "Company",
+  credits: "Freelancer",
 };
 
 const footerLeftMenu = [
   {
-    title: 'About Us',
-    link: 'about',
+    title: "About Us",
+    link: "about",
   },
   {
-    title: 'Services',
-    link: 'services',
+    title: "Services",
+    link: "services",
   },
   {
-    title: 'Portfolio',
-    link: 'portfolio',
+    title: "Portfolio",
+    link: "portfolio",
   },
   {
-    title: 'Contact Us',
-    link: '#',
+    title: "Contact Us",
+    link: "#",
   },
 ];
 
 const footerMiddleMenu = [
   {
-    title: 'Templates',
-    link: '#',
+    title: "Templates",
+    link: "#",
   },
   {
-    title: 'Documentation',
-    link: '#',
+    title: "Documentation",
+    link: "#",
   },
   {
-    title: 'FAQs',
-    link: '#',
+    title: "FAQs",
+    link: "#",
   },
   {
-    title: 'Help',
-    link: '#',
+    title: "Help",
+    link: "#",
   },
 ];
 
 const footerRightMenu = [
   {
-    title: 'Cookies',
-    link: '#',
+    title: "Cookies",
+    link: "#",
   },
   {
-    title: 'Privacy Policy',
-    link: '#',
+    title: "Privacy Policy",
+    link: "#",
   },
   {
-    title: 'Terms of Service',
-    link: '#',
+    title: "Terms of Service",
+    link: "#",
   },
   {
-    title: 'Contact Us',
-    link: 'contact',
+    title: "Contact Us",
+    link: "contact",
   },
 ];
 
 const socialLinks = [
   {
-    title: 'Twitter',
-    link: 'https://twitter.com/alfonso_puig',
+    title: "Twitter",
+    link: "https://twitter.com/alfonso_puig",
   },
   {
-    title: 'Instagram',
-    link: '#',
+    title: "Instagram",
+    link: "#",
   },
   {
-    title: 'Github',
-    link: 'https://github.com/alfonsopuig',
+    title: "Github",
+    link: "https://github.com/alfonsopuig",
   },
 ];
 
@@ -93,7 +93,10 @@ const Footer = () => {
           <div className="basis-2/4 md:text-left">
             <h4 className="mb-5">{footerInfo.title}</h4>
             <p>{footerInfo.description}</p>
-            <Button title={footerInfo.buttonText} link={footerInfo.buttonLink} />
+            <Button
+              title={footerInfo.buttonText}
+              link={footerInfo.buttonLink}
+            />
           </div>
           <div className="my-7 md:my-0">
             <h5 className="mb-5 md:text-left">{footerInfo.leftMenu}</h5>
@@ -126,7 +129,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="md:flex text-center place-content-between items-center border-t border-t-gray-600 pt-8 text-white">
+        <div className="place-content-between items-center border-t border-t-gray-600 pt-8 text-center text-white md:flex">
           <div className="basis-4/5 md:text-left">
             <p>
               © {new Date().getFullYear()} {footerInfo.credits}
