@@ -9,7 +9,7 @@ const hero = {
     "I create and maintain modern websites that help your business grow.",
   image: "/images/alfonsopuig.png",
   buttonLink: "#",
-  buttonText: "Hablemos",
+  buttonText: "Let's Talk",
 };
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
           <Image
             className="rounded-tr-[80px] rounded-bl-[80px]"
             src={hero.image}
-            alt=""
+            alt="Hero image"
             width={320}
             height={320}
           />
