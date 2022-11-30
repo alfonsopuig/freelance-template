@@ -56,7 +56,7 @@ function Navbar() {
       <header className="fixed z-20 w-full bg-white py-2 md:py-7">
         <div className="m-auto flex w-4/5 flex-wrap items-center justify-between">
           <div className="flex-wrap">
-            <Link href="/" className="text-xl font-extrabold uppercase">
+            <Link href="/" className="text-xl font-medium uppercase">
               Freelancer
             </Link>
           </div>
