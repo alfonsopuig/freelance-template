@@ -13,7 +13,7 @@ export default function About() {
         <meta name="description" content="Freelancer is a landing page template built with NextJS & Tailwind CSS" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="m-auto w-3/5 py-36">
+      <div className="m-auto w-4/5 md:w-3/5 py-36">
         <PageTitle title="About Us" />
         <div>
           <div className="flex justify-center">
