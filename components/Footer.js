@@ -93,14 +93,13 @@ const Footer = () => {
           <div className="basis-2/4 md:text-left">
             <h4 className="mb-5">{footerInfo.title}</h4>
             <p>{footerInfo.description}</p>
-
             <Button title={footerInfo.buttonText} link={footerInfo.buttonLink} />
           </div>
           <div className="my-7 md:my-0">
             <h5 className="mb-5 md:text-left">{footerInfo.leftMenu}</h5>
             <ul className="md:text-left">
               {footerLeftMenu.map((item, index) => (
-                <li key={index}>
+                <li key={index} className="my-3">
                   <Link href={item.link}>{item.title}</Link>
                 </li>
               ))}
@@ -110,7 +109,7 @@ const Footer = () => {
             <h5 className="mb-5 md:text-left">{footerInfo.middleMenu}</h5>
             <ul className="md:text-left">
               {footerMiddleMenu.map((item, index) => (
-                <li key={index}>
+                <li key={index} className="my-3">
                   <Link href={item.link}>{item.title}</Link>
                 </li>
               ))}
@@ -120,7 +119,7 @@ const Footer = () => {
             <h5 className="mb-5 md:text-left">{footerInfo.rightMenu}</h5>
             <ul className="md:text-left">
               {footerRightMenu.map((item, index) => (
-                <li key={index}>
+                <li key={index} className="my-3">
                   <Link href={item.link}>{item.title}</Link>
                 </li>
               ))}
