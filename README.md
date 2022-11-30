@@ -6,7 +6,7 @@ Freelancer is a startup template for entrepreneurs or freelancers. Built with [N
 
 ## Live Demo
 
-[https://nextjs-tailwind-linktree.vercel.app](https://nextjs-tailwind-linktree.vercel.app)
+[https://freelance-template.vercel.app/](https://freelance-template.vercel.app/)
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ Freelancer is a startup template for entrepreneurs or freelancers. Built with [N
 
 Click the below link to deploy this template on Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Falfonsopuig%2Fnextjs-tailwind-linktree)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Falfonsopuig%2Ffreelance-template)
 
 ## Getting Started
 
@@ -27,13 +27,13 @@ You can clone the project directly from this repo to your local system.
 #### 1. Clone the repo
 
 ```bash
-git clone https://github.com/alfonsopuig/nextjs-tailwind-linktree.git
+git clone https://github.com/alfonsopuig/freelance-template.git
 ```
 
 #### 2. Navigate to the directory
 
 ```bash
-cd nextjs-tailwind-linktree
+cd freelance-template
 ```
 
 #### 3. Install dependencies
@@ -49,10 +49,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Modifications
-
-Completar
 
 ## Author
 
