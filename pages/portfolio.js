@@ -21,16 +21,16 @@ export default function Portfolio() {
         <PageTitle title="Portfolio" />
         <div className="my-14 grid md:grid-cols-2 md:gap-6">
           <div className="w-full">
-            <Image src={portfolioOne} alt="" width={700} height={700} />
+            <Image src={portfolioOne} alt="portfolio-1" width={700} height={700} />
           </div>
           <div className="w-full">
-            <Image src={portfolioTwo} alt="" width={700} height={700} />
+            <Image src={portfolioTwo} alt="portfolio-2" width={700} height={700} />
           </div>
           <div className="w-full">
-            <Image src={portfolioTwo} alt="" width={700} height={700} />
+            <Image src={portfolioTwo} alt="portfolio-3" width={700} height={700} />
           </div>
           <div className="w-full">
-            <Image src={portfolioOne} alt="" width={700} height={700} />
+            <Image src={portfolioOne} alt="portfolio-4" width={700} height={700} />
           </div>
         </div>
       </div>
