@@ -33,7 +33,7 @@ export default function Projects(props) {
       }`}
     >
       <div className="basis-2/4">
-        <Image className="" src={data.image} alt="" width={512} height={512} />
+        <Image className="" src={data.image} alt={data.title} width={512} height={512} />
       </div>
       <div className="mt-10 basis-2/4 text-center md:text-left">
         <p className="font-semibold">{data.pretitle}</p>
