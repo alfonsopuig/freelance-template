@@ -23,7 +23,7 @@ export default function About() {
             <Image
               className="mb-20 rounded-[200px]"
               src={aboutImage}
-              alt=""
+              alt="Freelancer"
               width={320}
               height={320}
             />
