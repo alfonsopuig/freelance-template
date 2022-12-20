@@ -15,7 +15,7 @@ export default function Contact() {
       </Head>
       <div className="m-auto w-4/5 py-36 md:w-3/5">
         <PageTitle title="Contact" />
-        <form method="POST" action="https://herotofu.com/start">
+        <form method="POST" action="#">
           <label class="mb-6 block">
             <span class="text-gray-700">Your name</span>
             <input
